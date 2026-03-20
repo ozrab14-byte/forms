@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel= "stylesheet" href="form.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <script src="js/bootstrap.min.bundle.js"></script>
+</head>
+<body>
+    <div class="forms">
+    <form class="form-control w-100 mx-auto;">
+          <div class="container mx-auto">
+            <div class="form_header"><h2>English form</h2></div>
+            <h3>Enrollment Form</h3>
+                <label for="name" class="form-lable mx-auto" dir="rtl">Name</label>
+                 <input type="text" class="form-control w-50" id="name" placeholder="inter your Name">
+                 
+                <label for="l-name" class="form-lable mx-auto" dir="rtl">L/Name</label>
+                 <input type="text" class="form-control w-50" id="l-name" placeholder="inter your L/Name">
+                 
+                <label for="F_Name" class="form-lable mx-auto" dir="rtl">F/Name</label>
+                 <input type="text" class="form-control w-50" id="f/name" placeholder="inter your F/Name">
+                 <label for="Email" class="form-lable mx-auto" dir="rtl">Email</label>
+                <input type="email" class="form-control w-50" id="email" placeholder="inter your Email">
+                 <label for="namber" class="form-lable" dir="rtl">Namber</label>
+                <input type="namber" class="form-control w-50" id="namber" placeholder="inter your namber">
+<br>
+ <label for="message" class="form-lable" dir="rtl">message</label>
+                <input type="message" class="form-control  w-50" placeholder="inter your message">
+                <br>
+              
+                 <label for="file" class="form-lable" dir="rtl">Upload File</label>
+                <input type="file" class="form-control w-50" id="file" placeholder="Upload your file" multiple>
+  <br>
+                <label for="photo" class="form-lable" dir="rtl">Upload photo</label>
+                <input type="file"  accept="image/*"  class="form-control w-50">
+                 
+                <br>
+
+                  <label for="countries" class="form-lable" dir="ltr">country</lable><br>
+        <selec name="country">
+            <input type="text" list="countries" placeholder="select countries">
+            <datalist id="countries">
+            <option selected>Afghanistan</option>
+            <option value="ira">Iran</option>
+            <option>Pakistan</option>
+            </datalist>
+            </selec><br><br>
+        
+                 <label for="gender" class="form-lable" dir="ltr">gender</label>
+                 <div class="form-chak">
+                <input type="radio" class="form-chak-input" id="mal" value="mal" name="gender" >mal<br>
+                <input type="radio" class="form-chak-input" id="femal" value="femal" name="gender">femal<br><br>
+            <div class="checkbox">
+                <label class="form-chak"  dir="rtl">Languege</label><br>
+                <input type="checkbox" class="form-chak-input" id="checkbox" value="Dari" name="form-chak" >Dari<br>
+                <input type="checkbox" class="form-chak-input" id="checkbox" value="Pashto" name="form-chak">Pashto<br>
+            <input type="checkbox" class="form-chak-input" id="checkbox" value="English" name="form-chak">English
+        </div>
+                </div>
+                <br>
+                  <button class="btn bg-light" dir="rtl">submit</button>
+            </div>
+          
+        </form>
+
+
+        
+    <form class="form-control w-100 mx-auto ;" dir="rtl">
+          <div class="container mx-auto">
+             <div class="form_header"><h2>فورم فارسی</h2></div>
+            <h3>فورم ثبت نام</h3>
+                <label for="name" class="form-lable mx-auto">نام</label>
+                 <input type="text" class="form-control w-50" id="name" placeholder="نام خود را وارد کنید">
+                <label for="l-name" class="form-lable mx-auto">تخلص</label>
+                 <input type="text" class="form-control w-50" id="l-name" placeholder="تخلص تان وارد کنید">
+                <label for="F_Name" class="form-lable mx-auto">نام پدر</label>
+                 <input type="text" class="form-control w-50" id="f/name" placeholder="نام پدر خود را وارد کنید">
+                 <label for="Email" class="form-lable mx-auto">ایمیل آدرس</label>
+                <input type="email" class="form-control w-50" id="email" placeholder="ایمیل هود را وارد کنید">
+                 <label for="namber" class="form-lable">نمبر تماس</label>
+                <input type="namber" class="form-control w-50" id="namber" placeholder="نمبر تماس خود را وارد کنید">
+               <br>
+               <label for="message" class="form-lable">نظریات </label>
+                <input type="message" class="form-control  w-50" placeholder="نظریات تان درج کنید">
+                <br>
+                 <label for="file" class="form-lable">اسناد</label>
+                <input type="file" class="form-control w-50" id="file" placeholder="اسناد تان وارد کنید" multiple>
+               <br>
+                <label for="photo" class="form-lable">عکس</label>
+                <input type="file"  accept="image/*"  class="form-control w-50">
+                <br>
+                  <label for="countries" class="form-lable">کشور</lable><br>
+        <selec name="country">
+            <input type="text" list="countries" placeholder="کشور خود انتخاب کنید">
+            <datalist id="countries">
+            <option selected>افغانستان</option>
+            <option >ایران</option>
+            <option>پاکستان</option>
+            </datalist>
+            </selec><br><br>
+    
+                 <label for="gender" class="form-lable">جنسیت</label>
+                 <div class="form-chak">
+                <input type="radio" class="form-chak-input" id="mal" value="mal" name="gender" >مرد<br>
+                <input type="radio" class="form-chak-input" id="femal" value="femal" name="gender">زن<br><br>
+            <div class="checkbox">
+                <label class="form-chak" >زبان</label><br>
+                <input type="checkbox" class="form-chak-input" id="checkbox" value="Dari" name="form-chak" >دری<br>
+                <input type="checkbox" class="form-chak-input" id="checkbox" value="Pashto" name="form-chak">پشتو<br>
+            <input type="checkbox" class="form-chak-input" id="checkbox" value="English" name="form-chak">انگلیسی
+        </div>
+                </div>
+                <br>
+             <button class="btn bg-light ">ارسال فورم</button>
+          </div>
+        </form>
+        </div>
+</body>
+</html>
